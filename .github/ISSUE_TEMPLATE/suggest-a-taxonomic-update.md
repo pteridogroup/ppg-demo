@@ -1,5 +1,5 @@
 ---
-name: Taxonomic update template
+name: Suggest a taxonomic update
 about: Template for suggesting a taxonomic update
 title: ''
 labels: ''
