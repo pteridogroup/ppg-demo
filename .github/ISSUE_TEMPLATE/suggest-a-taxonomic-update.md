@@ -11,6 +11,8 @@ Name of taxon (including higher taxonomy):
 
 Rank of taxon:
 
+(Approximate) number of species affected:
+
 Reason for change:
 
 Reference (include link if available):
