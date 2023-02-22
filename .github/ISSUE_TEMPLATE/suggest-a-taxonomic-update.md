@@ -4,8 +4,9 @@ about: Template for suggesting a taxonomic update
 title: ''
 labels: ''
 assignees: ''
-
 ---
+
+<!-- Text between the arrows are comments and will not show up in the final issue. Feel free to delete these (or not) after reading them -->
 
 Name and rank of taxon:
 
