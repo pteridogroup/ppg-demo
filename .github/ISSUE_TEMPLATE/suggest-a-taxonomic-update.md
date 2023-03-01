@@ -20,7 +20,7 @@ Description of change:
 
 Reason for change:
 
-<!-- In some cases, such as recognizing a single new genus, this description may be self-evident; for other more complex cases, this section is the chance to describe the proposal as a whole -->
+<!-- Include a thorough description of why the change should be adopted, citing the relevant literature; also mention any contrary arguments that might be relevant -->
 
 Reference(s) for publication of the relevant names:
 
