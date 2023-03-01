@@ -1,0 +1,90 @@
+name: Taxonomic proposal
+description: Propose a taxonomic change
+title: "[Taxonomic Proposal]: "
+labels: ["taxonomic proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form should be used for proposing a taxonomic change. All proposed names must be published. To start a general discussion, please use the [Discussion template](https://github.com/pteridogroup/ppg-demo/issues/new?template=start-a-discussion.md).
+  - type: input
+    id: taxon-name
+    attributes:
+      label: Name of taxon
+    validations:
+      required: true
+  - type: dropdown
+    id: taxon-rank
+    attributes:
+      label: Rank of taxon
+      multiple: false
+      options:
+        - Class
+        - Order
+        - Suborder
+        - Family
+        - Subfamily
+        - Tribe
+        - Subtribe
+        - Genus
+        - Subgenus
+        - Species
+        - Infraspecific
+    validations:
+      required: true
+  - type: input
+    id: num-species
+    attributes:
+      label: Approximate number of species affected
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of change
+      description: |
+        In some cases, such as recognizing a single new genus, this description may be self-evident; for other more complex cases, this section is the chance to describe the proposal as a whole.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for change
+      description: |
+        Include a thorough description of why the change should be adopted, citing the relevant literature; also mention any contrary arguments that might be relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference(s) for publication of the relevant names
+      description: |
+        Only published names will be included in PPG II; include link (DOI) if available.
+    validations:
+      required: true
+  - type: dropdown
+    id: worldferns
+    attributes:
+      label: Is this change already in [World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list)?
+      multiple: false
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: input
+    id: other
+    attributes:
+      label: List the numbers of any issues with which this one interacts
+      description: |
+        Every issue is assigned a number. You can find the number in the title of the issue. Enter the number preceded by a hash mark, e.g., `#1`. Separate multiple issues with a comma, e.g., `#1, #2`.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
