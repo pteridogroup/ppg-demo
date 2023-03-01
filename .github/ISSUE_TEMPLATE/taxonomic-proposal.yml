@@ -1,7 +1,9 @@
 name: Taxonomic proposal
 description: Propose a taxonomic change
 title: "[Taxonomic Proposal]: "
-labels: ["taxonomic proposal"]
+labels: ["taxonomic-proposal"]
+assignees:
+  - joelnitta
 body:
   - type: markdown
     attributes:
