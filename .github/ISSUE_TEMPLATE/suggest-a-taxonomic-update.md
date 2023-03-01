@@ -8,6 +8,9 @@ assignees: ''
 
 <!-- Text between the arrows are comments and will not show up in the final issue. Feel free to delete these (or not) after reading them -->
 
+<!-- This form should be used for proposing a taxonomic change. All proposed names must be published. To start a general discussion, see 
+https://github.com/pteridogroup/ppg-demo/issues/new?template=start-a-discussion.md  -->
+
 Name and rank of taxon:
 
  <!-- E.g., if proposing a broad alteration to the generic circumscriptions in a family, list the family; if proposing the recognition of a single new genus, list the genus; etc -->
