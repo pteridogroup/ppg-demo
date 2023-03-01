@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This form should be used for proposing a taxonomic change. All proposed names must be published. To start a general discussion, please use the [Discussion template](https://github.com/pteridogroup/ppg-demo/issues/new?template=start-a-discussion.md).
+        This form should be used for proposing a taxonomic change relative to [PPG I](https://doi.org/10.1111/jse.12229). **All proposed names must be published.** To start a general discussion, please use the [Discussion template](https://github.com/pteridogroup/ppg-demo/issues/new?template=start-a-discussion.md).
   - type: input
     id: taxon-name
     attributes:
@@ -65,7 +65,9 @@ body:
   - type: dropdown
     id: worldferns
     attributes:
-      label: Is this change already in [World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list)?
+      label: Is this change already in World Ferns?
+      description: |
+        Please check [World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list) for the proposed name. For genus level and higher, it is recommended to check the [linear sequence](https://www.worldplants.de/world-plants-complete-list/linear-sequence).
       multiple: false
       options:
         - 'Yes'
