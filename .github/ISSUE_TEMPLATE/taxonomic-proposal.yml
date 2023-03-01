@@ -58,9 +58,9 @@ body:
   - type: textarea
     id: reference
     attributes:
-      label: Reference(s) for publication of the relevant names
+      label: Reference(s) for publication of the name
       description: |
-        Only published names will be included in PPG II; include link (DOI) if available.
+        Only validly published names will be included in PPG II. Include link (DOI) if available.
     validations:
       required: true
   - type: dropdown
@@ -78,7 +78,7 @@ body:
   - type: input
     id: other
     attributes:
-      label: List the numbers of any issues with which this one interacts
+      label: List the numbers of any related issues
       description: |
         Every issue is assigned a number. You can find the number in the title of the issue. Enter the number preceded by a hash mark, e.g., `#1`. Separate multiple issues with a comma, e.g., `#1, #2`.
     validations:
