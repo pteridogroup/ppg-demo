@@ -2,7 +2,7 @@
 name: Suggest a taxonomic update
 about: Template for suggesting a taxonomic update
 title: ''
-labels: ''
+labels: 'taxonomic proposal'
 assignees: ''
 ---
 
