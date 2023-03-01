@@ -1,6 +1,6 @@
 name: Taxonomic proposal
 description: Propose a taxonomic change
-title: ""
+title: " "
 labels: ["taxonomic proposal"]
 body:
   - type: markdown
