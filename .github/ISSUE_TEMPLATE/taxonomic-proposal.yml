@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This form should be used for proposing a taxonomic change relative to [PPG I](https://doi.org/10.1111/jse.12229). **All proposed names must be published.** To start a general discussion, please use the [Discussion template](https://github.com/pteridogroup/ppg-demo/issues/new?assignees=&labels=discussion&template=discussion.yml).
+        This form should be used for proposing a taxonomic change relative to [PPG I](https://doi.org/10.1111/jse.12229). **All proposed names must be validly published according to the [International Code of Nomenclature for Algae, Fungi, and Plants](https://www.iapt-taxon.org/nomen/main.php).** To start a general discussion, please use the [Discussion template](https://github.com/pteridogroup/ppg-demo/issues/new?assignees=&labels=discussion&template=discussion.yml).
 
         Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Rescue of Spicantopsis (Blechnaceae, Polypodiopsida)`).
   - type: input
