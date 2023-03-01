@@ -1,9 +1,7 @@
 name: Taxonomic proposal
 description: Propose a taxonomic change
 title: "[Taxonomic Proposal]: "
-labels: ["taxonomic-proposal"]
-assignees:
-  - joelnitta
+labels: ["taxonomic proposal"]
 body:
   - type: markdown
     attributes:
@@ -70,8 +68,8 @@ body:
       label: Is this change already in [World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list)?
       multiple: false
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - type: input
