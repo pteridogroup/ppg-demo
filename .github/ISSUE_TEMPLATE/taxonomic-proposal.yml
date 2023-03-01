@@ -1,5 +1,6 @@
 name: Taxonomic proposal
 description: Propose a taxonomic change
+title: ""
 labels: ["taxonomic proposal"]
 body:
   - type: markdown
@@ -87,7 +88,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
       options:
         - label: I agree to follow the PPG Code of Conduct
           required: true
