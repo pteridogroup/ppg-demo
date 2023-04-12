@@ -63,18 +63,6 @@ body:
         Only validly published names will be included in PPG II. Include link (DOI) if available.
     validations:
       required: true
-  - type: dropdown
-    id: worldferns
-    attributes:
-      label: Is this change already in World Ferns?
-      description: |
-        Please check if the proposed taxonomic change has already been made in [World Ferns](https://www.worldplants.de/world-ferns/ferns-and-lycophytes-list). For genus level and higher, it is recommended to use the [linear sequence](https://www.worldplants.de/world-plants-complete-list/linear-sequence).
-      multiple: false
-      options:
-        - 'Yes'
-        - 'No'
-    validations:
-      required: true
   - type: input
     id: other
     attributes:
