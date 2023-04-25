@@ -5,9 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        This form should be used for proposing a taxonomic change relative to [PPG I](https://doi.org/10.1111/jse.12229). **All proposed names must be validly published according to the [International Code of Nomenclature for Algae, Fungi, and Plants](https://www.iapt-taxon.org/nomen/main.php).** To start a general discussion, please use the [Discussion template](https://github.com/pteridogroup/ppg-demo/issues/new?assignees=&labels=discussion&template=discussion.yml).
-
+        This form should be used for proposing a taxonomic change relative to [PPG I](https://doi.org/10.1111/jse.12229). **All proposed names must be validly published according to the [International Code of Nomenclature for Algae, Fungi, and Plants](https://www.iapt-taxon.org/nomen/main.php).** 
+        
         Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Rescue of Spicantopsis (Blechnaceae, Polypodiopsida)`).
+
+        For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg-demo/discussions).
   - type: input
     id: taxon-name
     attributes:
@@ -44,7 +46,7 @@ body:
     attributes:
       label: Description of change
       description: |
-        In some cases, such as recognizing a single new genus, this description may be self-evident; for other more complex cases, this section is the chance to describe the proposal as a whole.
+        Describe the substance of the change.
     validations:
       required: true
   - type: textarea
@@ -60,7 +62,7 @@ body:
     attributes:
       label: Reference(s) for publication of the name
       description: |
-        Only validly published names will be included in PPG II. Include link (DOI) if available.
+        Only validly published names will be included in PPG. Include link (DOI) if available.
     validations:
       required: true
   - type: input
